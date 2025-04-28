@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+input {
+  padding: 10px;
+  width: 300px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px 20px;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}
+
+.videos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 30px;
+  justify-content: center;
+}
+
+.video-card {
+  width: 200px;
+}
+
+.video-card img {
+  width: 100%;
+  border-radius: 8px;
+}
